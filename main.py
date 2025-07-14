@@ -475,6 +475,7 @@ import tempfile
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Initialize FastAPI app
 app = FastAPI(
