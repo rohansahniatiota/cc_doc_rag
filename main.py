@@ -18,12 +18,12 @@ async def get_pdf_documents():
     """
     documents = [
         Document(
-            fileName="wa2490.supplement.aws-s3.pdf",
-            url="https://d33idl3etu5qjr.cloudfront.net/acorn/documents/wa2490.supplement.aws-s3.pdf"
+            fileName="Amazon Service Practice",
+            url="https://d1.awsstatic.com/whitepapers/AmazonS3BestPractices.pdf"
         ),
         Document(
-            fileName="s3-gsg.pdf",
-            url="https://s3.amazonaws.com/awsdocs/S3/latest/s3-gsg.pdf"
+            fileName="Amazon Service",
+            url="https://d1.awsstatic.com/whitepapers/AmazonS3BestPractices.pdf"
         )
     ]
     return {"documents": documents}
