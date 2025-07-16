@@ -116,8 +116,11 @@ async def get_pdf_documents():
         Document(
             fileName="Deployment",
             url="https://darwin-online.org.uk/converted/pdf/1823_Encyclopedia_A770.06.pdf"
+        ),
+        Document(
+            filename="Philosophy Doc",
+            url="https://www.anncudd.com/wp-content/uploads/2014/07/The-Encyclopedia-of-Philosophy-2nd-Ed.-Vol.-1.pdf"
         )
-        
         
     ]
     return {"documents": documents}
