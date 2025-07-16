@@ -106,19 +106,19 @@ async def get_pdf_documents():
             url="https://github.com/tanishachandani/AWS-Notes/blob/main/8.%20Other%20Compute%20Services.pdf"
         ),
         Document(
-            fileName="Deployment",
+            fileName="Art of War",
             url="https://drive.google.com/file/d/0B3vyNXp6qDWwTWdzLTJjOUtTcGc/edit?resourcekey=0-f1hRee21RT_lRLiIiequNw"
         ),
         Document(
-            fileName="Deployment",
+            fileName="Mathematics Encyclopaedia",
             url="https://www.emgywomenscollege.ac.in/templateEditor/kcfinder/upload/files/Encyclopaedia%20in%20Mathematics.pdf"
         ),
         Document(
-            fileName="Deployment",
+            fileName="Darwin Encyclopedia",
             url="https://darwin-online.org.uk/converted/pdf/1823_Encyclopedia_A770.06.pdf"
         ),
         Document(
-            filenName="Philosophy Doc",
+            fileName="Philosophy Doc",
             url="https://www.anncudd.com/wp-content/uploads/2014/07/The-Encyclopedia-of-Philosophy-2nd-Ed.-Vol.-1.pdf"
         )
         
